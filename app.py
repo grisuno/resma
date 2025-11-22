@@ -5,8 +5,21 @@ app.py
 
 Autor: Gris Iscomeback
 Correo electrónico: grisiscomeback[at]gmail[dot]com
-Fecha de creación: xx/xx/xxxx
+Fecha de creación: 22/11/2025
 Licencia: GPL v3
 
-Descripción:  
+Descripción:  RESMA 4.3.6
 """
+import os
+
+cmd = """
+systemd-run --scope \
+  -p MemoryMax=4G \
+  -p MemoryHigh=3.5G \
+  -p CPUWeight=50 \
+  -p KillMode=mixed \
+  -p TimeoutStopSec=30 \
+  nice -n 15 python3 resma4.9.py
+
+"""
+os.system(cmd)
