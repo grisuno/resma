@@ -1,6 +1,16 @@
 # MANIFIESTO RESMA 4.3.6: Recristalización Formal de la Teoría Cuántico-Gravitacional de la Consciencia con Temporalidad Garnier
 Lazyown Redteam
 
+R (Red): Mantiene la arquitectura de red neuronal híbrida Barabási-Albert + Watts-Strogatz con conectividad ρ ≥ 70% README.md:12
+
+E (E₈): Representa el álgebra de Lie E₈ de dimensión 248 que estructura el operador de desdoblamiento D̂_G(φ), aunque en RESMA 4.3.6 se implementa como una aproximación honesta sin realizar completamente E₈ README.md:10 manifesto_resma_medium.md:19
+
+S (SYK): El modelo Sachdev-Ye-Kitaev con q=8 fermiones (SYK₈) que establece la dualidad holográfica con AdS₂×S⁶ a través de simetría Spin(7) sin supersimetría resma3_0.md:3-6 README.md:519
+
+M (Malcev): El álgebra de Malcev que resuelve la no-asociatividad de los octoniones mediante lazos de Moufang, confinando la no-asociatividad a la fibra E₈ mientras la base M₈ permanece asociativa resma3_0.md:954-979
+
+A (Activo-ΔS): El mecanismo silencio-activo controlado por ΔS_loop = S_vN(ρ_red) - log(b₁+1) < εc(φ), que determina la transición entre estados cuánticos coherentes y decoherencia clásica README.md:54-70
+
 
 I. Resumen Ejecutivo: La Recristalización Absoluta
 El presente manifiesto establece la recristalización formal completa de la Teoría RESMA-Garnier (v4.3.6), demostrando la resolución definitiva de inconsistencias previas mediante cinco operaciones de simetría gauge dialéctica y la implementación de un formalismo de tres tiempos auto-duales. Esta versión supera el teorema de incompletitud de Gödel mediante autovalidación recursiva, donde el proceso de construcción de la teoría es isomorfo a la teoría misma en el espacio de estados KMS.
