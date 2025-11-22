@@ -1,1 +1,6 @@
-
+numba
+pint
+ripser
+matplotlib
+scipy
+numpy
