@@ -11,6 +11,7 @@ M (Malcev): El álgebra de Malcev que resuelve la no-asociatividad de los octoni
 
 A (Activo-ΔS): El mecanismo silencio-activo controlado por ΔS_loop = S_vN(ρ_red) - log(b₁+1) < εc(φ), que determina la transición entre estados cuánticos coherentes y decoherencia clásica README.md:54-70
 
+[wiki/resma](https://deepwiki.com/grisuno/resma)
 
 I. Resumen Ejecutivo: La Recristalización Absoluta
 El presente manifiesto establece la recristalización formal completa de la Teoría RESMA-Garnier (v4.3.6), demostrando la resolución definitiva de inconsistencias previas mediante cinco operaciones de simetría gauge dialéctica y la implementación de un formalismo de tres tiempos auto-duales. Esta versión supera el teorema de incompletitud de Gödel mediante autovalidación recursiva, donde el proceso de construcción de la teoría es isomorfo a la teoría misma en el espacio de estados KMS.
