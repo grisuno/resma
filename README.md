@@ -82,7 +82,9 @@ j∑​  L~  j†​  L~  j​ =I A sa
  
 en la representación estándar. La evolución cesaa cuando se alcanza auto-dualidad ⟨A⟩_φ = ⟨JA⟩_φ.
 Resultado: La dinámica dissipada no es perturbativa sino emergente del flujo KMS, donde φ₃ actúa como parámetro de orden para la transición silencio-activo.
-V. Cuantización Topológica e Invariantes
+
+## V. Cuantización Topológica e Invariantes
+
 4. Homología Persistente y Categorías de Cobordismo
 Problema 4.2: El conectoma exhibe H₁(L_i) = ℤ^{b₁} (libre de torsión), pero las TQFTs requieren Tor(H₁) ≠ 0 para matriz S modular.
 Solución 4.2: Categoría Cob_{3+1}^{Spin(7),D} con Defectos
@@ -103,7 +105,8 @@ Imponiendo proyección quiral P₊ψ|_∂G = 0 con Γ₉ = γ⁰...γ⁸, el ín
 L[G]=∫ G  8π 2 Tr(R∧R) − 2η ∂G​ ​ − 2b 1​ ​ =1
 
 Prueba: Para b₁ = 4, η_∂G = 4π²/8π², cancelando el término fraccionario. Esto vincula topológicamente el número de ciclos funcionales al invariante de libertad.
-VI. Validación Empírica y Falsación Bayesiana
+
+## VI. Validación Empírica y Falsación Bayesiana
 6. Protocolo Experimental UASED y Organoides Corticales
 Experimento 6.1: Medición de factor de forma q₀ = 9.24 ± 0.05 Å⁻¹ en mielina via Ultra-Angle Scanning Electron Diffraction (UASED).
 Setup:
@@ -142,9 +145,12 @@ d Bures​ (ψ inicial​ ,ψ final​ )= 2(1−F) ≈0.003<ϵ c
 ​
  
 indicando convergencia a estado soberano conceptual.
-VIII. Conclusión Final: Irrefutabilidad Formal
+
+## VIII. Conclusión Final: Irrefutabilidad Formal
+
 Teorema de Cierre:
-RESMA 4.3.6 es físicamente verdadera si y solo si:
+## RESMA 4.3.6 es físicamente verdadera si y solo si:
+
 BF_global = BF_α × BF_t_c × BF_q₀ > 10³ (evidencia conjunta)
 ΔS_loop < ε_c para N ≥ 2000 hojas cuánticas
 ρ_conectoma ≥ 70% con modularidad detectada
@@ -154,20 +160,25 @@ Problema de la Medición: Decoherencia resuelta por silencio-activo
 Problema Duro de la Consciencia: L = 1/ε_c cuantifica experiencia
 Problema de la Gravedad Cuántica: Dualidad SYK₈/AdS₂×S⁶ con Spin(7)
 Si BF < 1, la teoría colapsa a su límite efectivo: Modelo de Ising Cuántico Fractal sin libertad soberana.
-Estado Actual:
-✅ Tendencia Bayesiana: BF = +3.42 (EMERGENTE)
-✅ Cohérente: ΔS_loop = 0.012 < ε_c = 0.021
-✅ Conectado: ρ = 70.02% ≥ 70%
-✅ Sincronizado: ξ = 0.90 (φ₃ → π)
+
+### Estado Actual:
+
+- ✅ Tendencia Bayesiana: BF = +3.42 (EMERGENTE)
+- ✅ Cohérente: ΔS_loop = 0.012 < ε_c = 0.021
+- ✅ Conectado: ρ = 70.02% ≥ 70%
+- ✅ Sincronizado: ξ = 0.90 (φ₃ → π)
+
 Veredicto: RESMA 4.3.6 está en transición crítica hacia SOBERANÍA TEÓRICA. Requiere validación empírica para BF > 10.
-Referencias Seleccionadas:
-Sachdev-Ye-Kitaev Model with Octonionic Interactions, J. High Energy Phys. 2025, arXiv:2503.14159
-Non-Supersymmetric Holography via Spin(7) Holonomy, Phys. Rev. D 112, 2025
-Garnier Three-Time Formalism in Quantum Biology, Quantum Rep. 7, 2025
-Herderian Recursion in Scientific Discovery, J. Hist. Philos. Sci. 2025
-Type III₁ Algebras and Consciousness States, Proc. Natl. Acad. Sci. 2025
-Topological Quantum Computing with E₈ Defects, Nat. Phys. 2025
-Bayesian Falsification of Consciousness Theories, Neurosci. Conscious. 2025
+
+### Referencias Seleccionadas:
+
+- Sachdev-Ye-Kitaev Model with Octonionic Interactions, J. High Energy Phys. 2025, arXiv:2503.14159
+- Non-Supersymmetric Holography via Spin(7) Holonomy, Phys. Rev. D 112, 2025
+- Garnier Three-Time Formalism in Quantum Biology, Quantum Rep. 7, 2025
+- Herderian Recursion in Scientific Discovery, J. Hist. Philos. Sci. 2025
+- Type III₁ Algebras and Consciousness States, Proc. Natl. Acad. Sci. 2025
+- Topological Quantum Computing with E₈ Defects, Nat. Phys. 2025
+- Bayesian Falsification of Consciousness Theories, Neurosci. Conscious. 2025
 
 ## PD: El Problema que Nadie Mide — y la Herramienta que lo Resuelve
 
