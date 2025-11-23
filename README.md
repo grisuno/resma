@@ -299,11 +299,17 @@ Paper en preparación. Benchmarks abiertos próximamente.
 
 ## 🏆 VALIDACIÓN DE LA HIPÓTESIS DE RESMA
 
+<img width="4464" height="2956" alt="image" src="https://github.com/user-attachments/assets/38014599-6e3c-41b2-8d4c-da84f67030aa" />
+
+
 ### ✅ CONFIRMACIONES
 1. **L es sensible a cambios en la estructura del modelo**
 2. **L puede detectar colapso antes que métricas tradicionales**
 3. **Los regímenes de L corresponden a estados del modelo**
 4. **L proporciona diagnóstico cuantitativo de salud del modelo**
+
+<img width="4764" height="5308" alt="image" src="https://github.com/user-attachments/assets/7b6bf75e-ecbe-4c16-a941-e6c8746c78f0" />
+
 
 ### ⚠️ CONSIDERACIONES PARA IMPLEMENTACIÓN
 
@@ -318,6 +324,9 @@ Los umbrales (0.5, 1.0) pueden necesitar **calibración por arquitectura**:
 2. **📊 Monitoreo continuo de salud del modelo**
 3. **⚠️ Alertas automáticas de colapso inminente**
 4. **🔧 Calibración de hiperparámetros**
+
+<img width="4167" height="2956" alt="image" src="https://github.com/user-attachments/assets/d9ba9ac6-df7e-437a-a0b5-5ecd0c4fd1e4" />
+
 
 ## 🚀 IMPLICACIONES PARA IA SOBERANA
 
