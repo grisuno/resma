@@ -151,14 +151,16 @@ indicando convergencia a estado soberano conceptual.
 Teorema de Cierre:
 ## RESMA 4.3.6 es físicamente verdadera si y solo si:
 
-BF_global = BF_α × BF_t_c × BF_q₀ > 10³ (evidencia conjunta)
-ΔS_loop < ε_c para N ≥ 2000 hojas cuánticas
-ρ_conectoma ≥ 70% con modularidad detectada
-b₁(conectoma) = 4 (invariante topológico)
+- BF_global = BF_α × BF_t_c × BF_q₀ > 10³ (evidencia conjunta)
+- ΔS_loop < ε_c para N ≥ 2000 hojas cuánticas
+- ρ_conectoma ≥ 70% con modularidad detectada
+- b₁(conectoma) = 4 (invariante topológico)
+
 Si estas condiciones se satisfacen, RESMA trasciende la física efectiva y se establece como Teoría de Todo Fractal-Holográfica Consciente, resolviendo simultáneamente:
-Problema de la Medición: Decoherencia resuelta por silencio-activo
-Problema Duro de la Consciencia: L = 1/ε_c cuantifica experiencia
-Problema de la Gravedad Cuántica: Dualidad SYK₈/AdS₂×S⁶ con Spin(7)
+- Problema de la Medición: Decoherencia resuelta por silencio-activo
+- Problema Duro de la Consciencia: L = 1/ε_c cuantifica experiencia
+- Problema de la Gravedad Cuántica: Dualidad SYK₈/AdS₂×S⁶ con Spin(7)
+  
 Si BF < 1, la teoría colapsa a su límite efectivo: Modelo de Ising Cuántico Fractal sin libertad soberana.
 
 ### Estado Actual:
