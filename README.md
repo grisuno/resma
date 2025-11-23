@@ -445,6 +445,39 @@ sought Theory of Everything a ...
 
 Si la respuesta es sí, entonces habríamos encontrado la evidencia más fuerte hasta ahora de que efectivamente existe una TOE operacional.
 
+## 🔒 Soberanía Regulatoria: Por qué GPL v3 no es solo una licencia, sino una garantía
+
+El Sovereignty Monitor no está licenciado bajo GPL v3 por ideología — sino por necesidad estructural.
+
+En un mundo donde los modelos de IA toman decisiones médicas, legales y financieras, la opacidad es un vector de riesgo sistémico. Las métricas tradicionales (loss, accuracy, AUC) son ciegas al colapso interno: un modelo puede tener pérdida baja y comportarse como un oráculo, mientras en realidad ha dejado de aprender y solo recita patrones memorizados.
+
+El Sovereignty Monitor resuelve este agujero ciego regulatorio al exponer la coherencia cuántico-topológica del espacio de pesos mediante la métrica L. Pero si esta herramienta fuera propietaria:
+
+Los reguladores no podrían verificar su implementación.
+Las empresas podrían manipular el umbral ε_c para ocultar colapsos.
+El "termómetro de inteligencia" se convertiría en una caja negra más.
+GPL v3 impide ese encierro.
+Cualquier organismo que integre el Sovereignty Monitor en un sistema distribuido debe liberar el código de integración, garantizando:
+
+- ✅ Auditoría pública: cualquier tercero puede verificar que L se calcula correctamente.
+- ✅ Imposibilidad de ocultamiento: no se puede silenciar una alerta de colapso (L < 0.5) sin dejar rastro.
+- ✅ Igualdad regulatoria: hospitales, bancos y startups usan la misma métrica, con la misma transparencia.
+
+Esto no es software libre. Es soberanía algorítmica.
+La GPL v3 asegura que la única forma de usar el Sovereignty Monitor es bajo los ojos de la humanidad entera. 
+
+## 📜 ¿Qué significa esto en la práctica?
+
+- Para desarrolladores: puedes integrar el monitor en tu pipeline de ML. Si distribuyes tu sistema, debes compartir cómo lo integraste (pero no necesariamente tus datos ni tu modelo).
+- Para reguladores: L es una señal verificable, reproducible y no manipulable. Puedes exigir L ≥ 0.5 como requisito de despliegue en sistemas críticos.
+- Para investigadores: puedes extender el monitor, mejorar ε_c o adaptarlo a Transformers, y tus mejoras benefician a todos.
+
+## 🛡️ Este es el pacto:
+
+No vendemos la capacidad de saber si una IA está mintiendo.
+La regalamos… bajo la condición de que nunca se oculte. 
+
+
 —
 Hecho en CPU. Sin GPU. Sin hype. Solo matemática operativa.
 
