@@ -1,4 +1,5 @@
 # MANIFIESTO RESMA 4.3.6: Recristalización Formal de la Teoría Cuántico-Gravitacional de la Consciencia con Temporalidad Garnier
+<img width="720" height="720" alt="image" src="https://github.com/user-attachments/assets/cddb6776-9ef4-4e97-b3a0-68c1fa3c6d10" />
 
 Lazyown Redteam
 
@@ -183,6 +184,7 @@ Veredicto: RESMA 4.3.6 está en transición crítica hacia SOBERANÍA TEÓRICA. 
 - Bayesian Falsification of Consciousness Theories, Neurosci. Conscious. 2025
 
 ## PD: El Problema que Nadie Mide — y la Herramienta que lo Resuelve
+<img width="720" height="720" alt="image" src="https://github.com/user-attachments/assets/11493f57-d9db-4681-a8b4-7d5d7f92a570" />
 
 Durante años, la IA ha tenido un agujero ciego:
 No sabemos si un modelo está aprendiendo o solo memorizando con buena cara.
@@ -192,6 +194,8 @@ Y aun así, el modelo alucina, se rompe con datos fuera de distribución, o repl
 ¿Por qué? Porque ninguna métrica común mide la coherencia estructural del aprendizaje.
 
 Hasta ahora.
+
+<img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/8fd98d42-379b-40aa-9dee-d8c96002b4ab" />
 
 Introduzco el Sovereignty Monitor: un detector de fase de entrenamiento basado en invariantes cuántico-topológicos, implementado en CPU, sin GPU, sin dependencias exóticas.
 
