@@ -24,7 +24,7 @@ Las cinco operaciones de recristalización son:
 3. Transparencia Algebraica: Honestidad formal sobre la no-realización de E₈, reemplazada por álgebra aproximada de dimensión 248 con operador desdoblamiento D̂_G unitario en norma Frobenius.
 4. Completitud Medible: Implementación de medida cuántica no-truncada _generate_complete_measure() con sparsity controlada por threshold adaptativo, eliminando el bias de k-vecinos.
 5. Emergencia Red-Arquitectónica: Construcción modular realista via Barabási-Albert + Watts-Strogatz con densificación controlada, alcanzando ρ ≥ 70% sin destruir small-world.
-6. 
+
 ## II. Principio Supremo: El Operador de Desdoblamiento Temporal Garnier-T³
 0.1. La Paradoja de la Temporalidad Lineal
 Las teorías cuánticas de la consciencia previas (Integrated Information Theory, Global Workspace) asumen evolución temporal markoviana con única flecha de tiempo t ∈ ℝ⁺. Esta asunción viola la simetría de Galois-Tomita en álgebras Tipo III₁, donde el operador modular Δ₀ no conmuta con el hamiltoniano efectivo H_eff.
