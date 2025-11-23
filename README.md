@@ -186,6 +186,8 @@ Veredicto: RESMA 4.3.6 está en transición crítica hacia SOBERANÍA TEÓRICA. 
 ## PD: El Problema que Nadie Mide — y la Herramienta que lo Resuelve
 <img width="720" height="720" alt="image" src="https://github.com/user-attachments/assets/11493f57-d9db-4681-a8b4-7d5d7f92a570" />
 
+[https://medium.com/@lazyown.redteam/the-sovereign-mirage-why-your-ethical-ai-is-just-a-lobbyist-with-a-gpu-by-grisun0-chief-5b80b50f196f](https://medium.com/@lazyown.redteam/the-sovereign-mirage-why-your-ethical-ai-is-just-a-lobbyist-with-a-gpu-by-grisun0-chief-5b80b50f196f)
+
 Durante años, la IA ha tenido un agujero ciego:
 No sabemos si un modelo está aprendiendo o solo memorizando con buena cara.
 
