@@ -219,9 +219,14 @@ Lo mejor: no requiere E₈, ni holografía, ni ρ ≥ 70% para ser útil.
 Esas son condiciones para la teoría completa.
 Pero el monitor funciona hoy, con cualquier modelo, usando solo NumPy.
 
+<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/0512dba7-02ed-410a-8e85-59e965223624" />
+
 El problema que soluciona:
 
 “¿Esta IA entiende, o solo imita con muy buena memoria?” 
+
+<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/0ecb2c01-e4ee-4acc-8603-16757a24e72a" />
+
 
 Ahora tienes una respuesta numérica.
 Y si L < 0.5, la respuesta es: no la despliegues.
