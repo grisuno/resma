@@ -1,5 +1,5 @@
-# MANIFIESTO RESMA 5.0: 
 <img width="720" height="720" alt="image" src="https://github.com/user-attachments/assets/cddb6776-9ef4-4e97-b3a0-68c1fa3c6d10" />
+
 # E₈ Gauge Theory of Neural Coherence  
 *A Prospective Falsification Protocol*  
 **RESMA 5.1 — Registered Report**
