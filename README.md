@@ -191,7 +191,7 @@ RESMA 4.x (unpublished manuscript, 2025)
 
 ## ❤️ Acknowledgments
 
-We thank our collaborators and funding agencies. All code and data will be released under the MIT License upon publication.
+We thank our collaborators and funding agencies. All code and data will be released under the GPLv3 License upon publication.
 
 This is not just a theory—it’s a testable promise.
 
