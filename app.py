@@ -19,7 +19,7 @@ systemd-run --scope \
   -p CPUWeight=50 \
   -p KillMode=mixed \
   -p TimeoutStopSec=30 \
-  nice -n 15 python3 resma4.9.py
+  nice -n 15 python3 resma4.11.py
 
 """
 os.system(cmd)
