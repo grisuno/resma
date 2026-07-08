@@ -1241,8 +1241,8 @@ def simulate_resma_garnier(
 # =============================================================================
 
 if __name__ == "__main__":
-    N_LEAVES = 1000
-    N_NODES = 10000
+    N_LEAVES = 10000
+    N_NODES = 100000
     
     FORCE_RESTART = os.environ.get('RESMA_FORCE_RESTART', 'False').lower() == 'true'
     RESUME = os.environ.get('RESMA_RESUME', 'True').lower() == 'true'
