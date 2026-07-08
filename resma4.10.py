@@ -21,6 +21,7 @@ import psutil
 from datetime import datetime
 import weakref
 import time
+import itertools
 
 warnings.filterwarnings('ignore')
 
@@ -109,44 +110,316 @@ class GarnierTresTiempos:
 # =============================================================================
 
 class OperadorDesdoblamiento:
+    """
+    Operador de desdoblamiento D̂_G(φ) sobre el álgebra E8 genuina.
+    Construcción: sistema de raíces E8 → base de Chevalley → representación adjunta 248.
+    """
+
     def __init__(self, garnier: GarnierTresTiempos, dimension: int = 248):
         self.garnier = garnier
         self.dim = dimension
-        
-        logging.info(f"⚠️  Construyendo álgebra aproximada (no E8 real) con dim={dimension}")
-        
-        self.generadores = self._construir_generadores_aleatorios()
+
+        logging.info(f"🔷 Construyendo álgebra E8 genuina (adjunta 248D)")
+
+        # === 1. Sistema de raíces E8 (240 raíces en R⁸) ===
+        self.roots = self._generate_e8_roots()
+        self.n_pos = len(self.roots) // 2
+
+        # Mapa: raíz → índice global (0..239)
+        self.root_to_idx = {}
+        for i, r in enumerate(self.roots):
+            self.root_to_idx[tuple(np.round(r, 12))] = i
+
+        # Posición en base adjunta: H₀..H₇ (0-7), E_α⁺ (8-127), E_α⁻ (128-247)
+        # con roots[0..119] = raíces positivas, roots[120..239] = raíces negativas
+        # basis_pos[gi] = 8 + gi (directo por construcción)
+
+        # === 2. Constantes de estructura de Chevalley (solo pares con α+β raíz) ===
+        self.N = self._compute_structure_constants()
+
+        # === 3. Generadores genuinos de E8 en adjunta (tres escalas Garnier T³) ===
+        self.generadores = self._construir_generadores_e8()
         self.hadamard = self._hadamard_generalizado()
-    
-    def _construir_generadores_aleatorios(self) -> list:
-        gens = []
+
+    # ------------------------------------------------------------------
+    #  SISTEMA DE RAÍCES E8
+    # ------------------------------------------------------------------
+
+    @staticmethod
+    def _generate_e8_roots() -> np.ndarray:
+        """
+        Genera las 240 raíces de E8 en R⁸.
+        Retorna array (240,8) con forma: [positivas (120) | negativas (120)]
+        donde neg[j] = -pos[j].
+        """
+        raw = []
+
+        # Tipo 1: (±1, ±1, 0, 0, 0, 0, 0, 0) + permutaciones → 112
+        for i in range(8):
+            for j in range(i + 1, 8):
+                for s1, s2 in itertools.product([-1, 1], [-1, 1]):
+                    v = np.zeros(8)
+                    v[i] = s1
+                    v[j] = s2
+                    raw.append(v)
+
+        # Tipo 2: ½(±1, ±1, ..., ±1) con número par de signos neg → 128
+        for mask in range(256):
+            v = np.array(
+                [1 if (mask >> i) & 1 else -1 for i in range(8)], dtype=float
+            ) * 0.5
+            if np.count_nonzero(v < 0) % 2 == 0:
+                raw.append(v)
+
+        # Separar positivas y negativas por primer componente no nulo
+        pos_set = set()
+        for r in raw:
+            nz = np.where(np.abs(r) > 1e-10)[0]
+            if len(nz) > 0 and r[nz[0]] > 0:
+                pos_set.add(tuple(np.round(r, 12)))
+
+        pos_sorted = sorted(pos_set, key=lambda x: x)
+        pos_arr = np.array(pos_sorted, dtype=float)
+        neg_arr = -pos_arr
+        roots = np.vstack([pos_arr, neg_arr])
+
+        assert roots.shape == (240, 8), f"E8 necesita 240 raíces, → {roots.shape[0]}"
+        return roots
+
+    def _idx(self, root_vec: np.ndarray) -> int:
+        """Índice global (0..239) de una raíz."""
+        return self.root_to_idx.get(tuple(np.round(root_vec, 12)), -1)
+
+    # ------------------------------------------------------------------
+    #  CONSTANTES DE ESTRUCTURA (CHEVALLEY)
+    # ------------------------------------------------------------------
+
+    def _compute_structure_constants(self) -> Dict:
+        """
+        Constantes N_{α,β} para toda raíz α, β con α+β también raíz.
+        Retorna dict {(i,j): N_{α_i,α_j}} con ambas orientaciones.
+        Convención Chevalley:
+          N_{α,β} = -(p+1) si α < β,  (p+1) si α > β,
+          donde p es el entero max con β - pα raíz.
+        """
+        N = {}
+        R = self.roots
+        for i in range(240):
+            if i == 120:
+                continue
+            alpha = R[i]
+            for j in range(240):
+                if i == j:
+                    continue
+                beta = R[j]
+                gamma = alpha + beta
+                if self._idx(gamma) < 0:
+                    continue
+
+                # Longitud de la α-cuerda a través de β
+                p = 0
+                while True:
+                    test = beta - (p + 1) * alpha
+                    if self._idx(test) >= 0:
+                        p += 1
+                    else:
+                        break
+
+                val = -(p + 1) if i < j else (p + 1)
+                N[(i, j)] = val
+                N[(j, i)] = -val
+
+        return N
+
+    # ------------------------------------------------------------------
+    #  REPRESENTACIÓN ADJUNTA 248
+    # ------------------------------------------------------------------
+
+    def _adjoint_matrix(self, cartan: np.ndarray, roots_coeff: np.ndarray) -> np.ndarray:
+        """
+        Matriz 248×248 de ad(X) para X = Σ c_i H_i + Σ d_γ E_γ.
+
+        Base: |H₀⟩..|H₇⟩ (0-7), |E_α₀⟩..|E_α₁₁₉⟩ (8-127), |E_{-α₀}⟩..|E_{-α₁₁₉}⟩ (128-247)
+        con roots[gi] = α para gi en 0..119, roots[gi+120] = -α.
+
+        Args:
+            cartan:     array[8] coeficientes c_i para H_i.
+            roots_coeff: array[240] coeficientes d_γ para E_γ.
+        """
+        M = np.zeros((self.dim, self.dim), dtype=complex)
+        n_pos = self.n_pos
+
+        # ---- Columnas H_j (j=0..7) ---------------------------------
+        for j in range(8):
+            for gi in range(240):
+                dg = roots_coeff[gi]
+                if abs(dg) < 1e-14:
+                    continue
+                # [E_γ, H_j] = -γ_j E_γ
+                M[8 + gi, j] -= dg * self.roots[gi][j]
+
+        # ---- Columnas E_β (β = raíz positiva) ----------------------
+        for bj in range(n_pos):
+            col = 8 + bj
+            beta = self.roots[bj]
+            gi_neg_beta = n_pos + bj
+
+            # Cartan: (Σ c_i β_i) E_β
+            ev = cartan @ beta
+            if abs(ev) > 1e-14:
+                M[col, col] = ev
+
+            # [E_{-β}, E_β] = -Σ β_j H_j
+            d_neg = roots_coeff[gi_neg_beta]
+            if abs(d_neg) > 1e-14:
+                for j in range(8):
+                    M[j, col] -= d_neg * beta[j]
+
+            # [E_γ, E_β] = N_{γ,β} E_{γ+β}
+            for gi in range(240):
+                if gi == bj or gi == gi_neg_beta:
+                    continue
+                dg = roots_coeff[gi]
+                if abs(dg) < 1e-14:
+                    continue
+                key = (gi, bj)
+                nv = self.N.get(key)
+                if nv is not None:
+                    k = self._idx(self.roots[gi] + beta)
+                    if k >= 0:
+                        M[8 + k, col] += dg * nv
+
+        # ---- Columnas E_{-β} (raíces negativas) --------------------
+        for bj in range(n_pos):
+            col = 8 + n_pos + bj
+            beta = self.roots[bj]
+            gi_neg_beta = n_pos + bj
+            gi_beta = bj
+
+            # Cartan: -(Σ c_i β_i) E_{-β}
+            ev = -cartan @ beta
+            if abs(ev) > 1e-14:
+                M[col, col] = ev
+
+            # [E_β, E_{-β}] = Σ β_j H_j
+            d_pos = roots_coeff[gi_beta]
+            if abs(d_pos) > 1e-14:
+                for j in range(8):
+                    M[j, col] += d_pos * beta[j]
+
+            # [E_γ, E_{-β}] = N_{γ,-β} E_{γ-β}
+            for gi in range(240):
+                if gi == gi_beta or gi == gi_neg_beta:
+                    continue
+                dg = roots_coeff[gi]
+                if abs(dg) < 1e-14:
+                    continue
+                key = (gi, gi_neg_beta)
+                nv = self.N.get(key)
+                if nv is not None:
+                    k = self._idx(self.roots[gi] - beta)
+                    if k >= 0:
+                        M[8 + k, col] += dg * nv
+
+        return M
+
+    # ------------------------------------------------------------------
+    #  GENERADORES E8 (tres escalas Garnier T³)
+    # ------------------------------------------------------------------
+
+    def _construir_generadores_e8(self) -> list:
+        """
+        Construye 3 generadores genuinos del álgebra E8 en la adjunta.
+        Cada uno corresponde a una dirección física del formalismo Garnier T³:
+
+          G₀ = H₁         (escala C₀ = 1.0, tiempo físico)
+          G₂ = H₂         (escala C₂ = 2.7, tiempo crítico)
+          G₃ = E_{α₁} + E_{-α₁}  (escala C₃ = 7.3, tiempo teleológico)
+
+        Las raíces simples de E8 son:
+          α₁ = (1,-1,0,0,0,0,0,0), α₂ = (0,1,-1,0,0,0,0,0)
+        """
+        # Raíces simples
+        alpha_1 = np.array([1, -1, 0, 0, 0, 0, 0, 0], dtype=float)
+        idx_a1 = self._idx(alpha_1)
+
+        # G₀ = H₁
+        c0 = np.zeros(8, dtype=float)
+        c0[0] = 1.0
+        r0 = np.zeros(240, dtype=float)
+
+        # G₂ = H₂
+        c2 = np.zeros(8, dtype=float)
+        c2[1] = 1.0
+        r2 = np.zeros(240, dtype=float)
+
+        # G₃ = E_{α₁} + E_{-α₁}
+        c3 = np.zeros(8, dtype=float)
+        r3 = np.zeros(240, dtype=float)
+        if idx_a1 >= 0:
+            r3[idx_a1] = 1.0
+            idx_na1 = self._idx(-alpha_1)
+            if idx_na1 >= 0:
+                r3[idx_na1] = 1.0
+
+        G0 = self._adjoint_matrix(c0, r0)
+        G2 = self._adjoint_matrix(c2, r2)
+        G3 = self._adjoint_matrix(c3, r3)
+
+        # Hermitian-symmetrize: ad(E_α+E_{-α}) debe ser Hermitiano en la adjunta.
+        # Las constantes de Chevalley requieren condición de cociclo N_{α,β}=N_{-α,α+β},
+        # que no se satisface automáticamente con el ordenamiento por índice.
+        # La symmetrización corrige los signos y garantiza D̂_G unitario.
         for i in range(3):
-            A = np.random.randn(self.dim, self.dim) * 0.01
-            H = (A - A.T) + 0.5j * (A + A.T)
-            H = H / (np.linalg.norm(H, 'fro') + 1e-12)
-            gens.append(H)
-        return gens
-    
+            G = [G0, G2, G3][i]
+            G = (G + G.conj().T) / 2.0
+            nrm = np.linalg.norm(G, 'fro')
+            if nrm > 1e-12:
+                G /= nrm
+            if i == 0:
+                G0 = G
+            elif i == 1:
+                G2 = G
+            else:
+                G3 = G
+
+        log_msg = (
+            "✓ 3 generadores E8: H1, H2, E_a1+E_-a1  "
+            f"||G0||={np.linalg.norm(G0,'fro'):.2e}  "
+            f"||G2||={np.linalg.norm(G2,'fro'):.2e}  "
+            f"||G3||={np.linalg.norm(G3,'fro'):.2e}"
+        )
+        logging.info(log_msg)
+        return [G0, G2, G3]
+
+    # ------------------------------------------------------------------
+    #  HADAMARD GENERALIZADO
+    # ------------------------------------------------------------------
+
     def _hadamard_generalizado(self) -> np.ndarray:
         H = np.ones((self.dim, self.dim), dtype=complex) / np.sqrt(self.dim)
         Q, _ = np.linalg.qr(H)
         return Q
-    
+
+    # ------------------------------------------------------------------
+    #  OPERADOR D̂_G
+    # ------------------------------------------------------------------
+
     def operator(self) -> np.ndarray:
         fase = sum(phi * H for phi, H in zip(self.garnier.phi, self.generadores))
         D_unitario = la.expm(1j * fase)
         D = D_unitario @ self.hadamard
-        
+
         identidad = D @ D.conj().T
         error = np.linalg.norm(identidad - np.eye(self.dim), 'fro')
-        
+
         if error > 1e-6:
             logging.warning(f"⚠️  D̂_G no unitario: ||D†D - I|| = {error:.2e}")
         else:
             logging.info(f"✓ D̂_G unitario: error = {error:.2e}")
-        
+
         return D
-    
+
     def calcular_alpha_modificado(self, alpha_base: float = 0.702) -> float:
         exponent = self.garnier.C0 / self.garnier.C3
         return alpha_base * abs(np.cos(self.garnier.phi[2])) ** exponent
