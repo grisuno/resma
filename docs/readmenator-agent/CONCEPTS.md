@@ -1,0 +1,120 @@
+# Concepts
+
+Nouns map atomically to file sets (EXTRACTED); verbs aggregate structural edges (INFERRED).
+
+- `resma` | files=37 | mentions=118 | `app.py`, `demo_mini_resma.py`, `garnier_nn.py`, `main.py`, `main2.py`, `main3.py`, `main4.1.py`, `main4.py.py`, `main5.py`, `monitor_extremo.py`
+- `con` | files=21 | mentions=150 | `demo_mini_resma.py`, `garnier_nn.py`, `main.py`, `main2.py`, `main4.1.py`, `main5.py`, `monitor_extremo.py`, `quick_monitor.py`, `resma2/main_experiment.py`, `resma2/resma_app_mnist.py`
+- `para` | files=18 | mentions=81 | `demo_mini_resma.py`, `main.py`, `main2.py`, `main4.1.py`, `main5.py`, `monitor_extremo.py`, `quick_monitor.py`, `resma2/main_experiment.py`, `resma2/resma_core.py`, `resma2/resma_observer.py`
+- `quantum` | files=18 | mentions=29 | `main.py`, `main2.py`, `main3.py`, `main4.1.py`, `main4.py.py`, `main5.py`, `resma2/resma_app_mnist.py`, `resma2/resma_observer.py`, `resma4.10.py`, `resma4.13.py`
+- `log` | files=17 | mentions=60 | `main.py`, `main2.py`, `main3.py`, `main4.1.py`, `main4.py.py`, `main5.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`, `resma4.3.py`
+- `network` | files=17 | mentions=27 | `garnier_nn.py`, `main.py`, `main2.py`, `main3.py`, `main4.1.py`, `main4.py.py`, `main5.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`
+- `ramsey` | files=17 | mentions=23 | `main.py`, `main2.py`, `main3.py`, `main4.1.py`, `main4.py.py`, `main5.py`, `resma2/resma_core.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`
+- `spectral` | files=16 | mentions=39 | `main.py`, `main2.py`, `main3.py`, `main4.1.py`, `main4.py.py`, `main5.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`, `resma4.3.py`
+- `post` | files=16 | mentions=31 | `main.py`, `main2.py`, `main3.py`, `main4.1.py`, `main4.py.py`, `main5.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`, `resma4.3.py`
+- `global` | files=16 | mentions=24 | `main.py`, `main2.py`, `main3.py`, `main4.1.py`, `main4.py.py`, `main5.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`, `resma4.3.py`
+- `distance` | files=16 | mentions=22 | `main.py`, `main2.py`, `main3.py`, `main4.1.py`, `main4.py.py`, `main5.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`, `resma4.3.py`
+- `bures` | files=16 | mentions=20 | `main.py`, `main2.py`, `main3.py`, `main4.1.py`, `main4.py.py`, `main5.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`, `resma4.3.py`
+- `density` | files=16 | mentions=17 | `main.py`, `main2.py`, `main3.py`, `main4.1.py`, `main4.py.py`, `main5.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`, `resma4.3.py`
+- `simulate` | files=16 | mentions=17 | `main.py`, `main2.py`, `main3.py`, `main4.1.py`, `main4.py.py`, `main5.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`, `resma4.3.py`
+- `leaf` | files=16 | mentions=16 | `main.py`, `main2.py`, `main3.py`, `main4.1.py`, `main4.py.py`, `main5.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`, `resma4.3.py`
+- `bayes` | files=15 | mentions=26 | `main.py`, `main2.py`, `main3.py`, `main4.1.py`, `main4.py.py`, `main5.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`, `resma4.3.py`
+- `loss` | files=15 | mentions=24 | `main.py`, `main2.py`, `main3.py`, `main4.1.py`, `main4.py.py`, `main5.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`, `resma4.3.py`
+- `condition` | files=15 | mentions=21 | `main.py`, `main2.py`, `main3.py`, `main4.1.py`, `main4.py.py`, `main5.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`, `resma4.3.py`
+- `free` | files=15 | mentions=18 | `main.py`, `main2.py`, `main3.py`, `main4.1.py`, `main4.py.py`, `main5.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`, `resma4.3.py`
+- `hamiltonian` | files=15 | mentions=18 | `main.py`, `main2.py`, `main3.py`, `main4.1.py`, `main4.py.py`, `main5.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`, `resma4.3.py`
+- `cavity` | files=15 | mentions=16 | `main.py`, `main2.py`, `main3.py`, `main4.1.py`, `main4.py.py`, `main5.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`, `resma4.3.py`
+- `myelin` | files=15 | mentions=16 | `main.py`, `main2.py`, `main3.py`, `main4.1.py`, `main4.py.py`, `main5.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`, `resma4.3.py`
+- `potential` | files=15 | mentions=16 | `main.py`, `main2.py`, `main3.py`, `main4.1.py`, `main4.py.py`, `main5.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`, `resma4.3.py`
+- `monitor` | files=14 | mentions=41 | `monitor_extremo.py`, `quick_monitor.py`, `resma2/monitor.py`, `resma2/resma_observer.py`, `resma4.10.py`, `resma4.13.py`, `resma4.3.py`, `resma4.4.py`, `resma4.5.py`, `resma4.6.py`
+- `generate` | files=14 | mentions=29 | `main.py`, `main2.py`, `main5.py`, `resma2/resma_core.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`, `resma4.3.py`, `resma4.4.py`, `resma4.5.py`
+- `matriz` | files=14 | mentions=28 | `main.py`, `main2.py`, `main5.py`, `monitor_extremo.py`, `quick_monitor.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`, `resma4.3.py`, `resma4.4.py`
+- `completo` | files=14 | mentions=20 | `garnier_nn.py`, `main.py`, `main2.py`, `main3.py`, `main4.py.py`, `main5.py`, `resma4.10.py`, `resma4.2.py`, `resma4.4.py`, `resma4.6.py`
+- `state` | files=14 | mentions=20 | `main.py`, `main2.py`, `main5.py`, `resma2/resma_observer.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`, `resma4.3.py`, `resma4.4.py`, `resma4.5.py`
+- `measure` | files=14 | mentions=14 | `main.py`, `main2.py`, `main5.py`, `resma2/resma_noise_phase_test.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`, `resma4.3.py`, `resma4.4.py`, `resma4.5.py`
+- `compute` | files=13 | mentions=51 | `main.py`, `main2.py`, `main5.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`, `resma4.3.py`, `resma4.4.py`, `resma4.5.py`, `resma4.6.py`
+- `factor` | files=13 | mentions=36 | `main.py`, `main2.py`, `main4.1.py`, `main5.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`, `resma4.3.py`, `resma4.5.py`, `resma4.6.py`
+- `del` | files=13 | mentions=33 | `main.py`, `main2.py`, `main5.py`, `monitor_extremo.py`, `quick_monitor.py`, `resma2/main_experiment.py`, `resma2/resma_observer.py`, `resma4.10.py`, `resma4.13.py`, `resma4.5.py`
+- `libertad` | files=13 | mentions=25 | `main5.py`, `monitor_extremo.py`, `quick_monitor.py`, `resma2/monitor.py`, `resma2/resma_observer.py`, `resma4.10.py`, `resma4.13.py`, `resma4.5.py`, `resma4.6.py`, `resma4.7.py`
+- `dimension` | files=13 | mentions=23 | `main.py`, `main2.py`, `main5.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`, `resma4.3.py`, `resma4.4.py`, `resma4.5.py`, `resma4.6.py`
+- `leaves` | files=13 | mentions=22 | `main.py`, `main2.py`, `main5.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`, `resma4.3.py`, `resma4.4.py`, `resma4.5.py`, `resma4.6.py`
+- `construct` | files=13 | mentions=20 | `main.py`, `main2.py`, `main5.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`, `resma4.3.py`, `resma4.4.py`, `resma4.5.py`, `resma4.6.py`
+- `modular` | files=13 | mentions=20 | `garnier_nn.py`, `main.py`, `main2.py`, `main3.py`, `main4.1.py`, `main4.py.py`, `main5.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`
+- `initialize` | files=13 | mentions=13 | `main.py`, `main2.py`, `main5.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`, `resma4.3.py`, `resma4.4.py`, `resma4.5.py`, `resma4.6.py`
+- `neural` | files=13 | mentions=13 | `main.py`, `main2.py`, `main5.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`, `resma4.3.py`, `resma4.4.py`, `resma4.5.py`, `resma4.6.py`
+- `resma2` | files=13 | mentions=13 | `resma2/main_experiment.py`, `resma2/main_experiments.py`, `resma2/monitor.py`, `resma2/resma_app_mnist.py`, `resma2/resma_breakpoint.py`, `resma2/resma_combat_test.py`, `resma2/resma_core.py`, `resma2/resma_noise_phase_test.py`, `resma2/resma_observer.py`, `resma2/resma_overload.py`
+- `resmaconstants` | files=13 | mentions=13 | `main.py`, `main2.py`, `main5.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`, `resma4.3.py`, `resma4.4.py`, `resma4.5.py`, `resma4.6.py`
+- `resmauniverse` | files=13 | mentions=13 | `main.py`, `main2.py`, `main5.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`, `resma4.3.py`, `resma4.4.py`, `resma4.5.py`, `resma4.6.py`
+- `topological` | files=13 | mentions=13 | `main.py`, `main2.py`, `main5.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`, `resma4.3.py`, `resma4.4.py`, `resma4.5.py`, `resma4.6.py`
+- `calcular` | files=12 | mentions=43 | `main5.py`, `monitor_extremo.py`, `quick_monitor.py`, `resma2/monitor.py`, `resma4.10.py`, `resma4.13.py`, `resma4.5.py`, `resma4.6.py`, `resma4.7.py`, `resma4.8.py`
+- `experimental` | files=12 | mentions=16 | `main.py`, `main2.py`, `main5.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`, `resma4.3.py`, `resma4.5.py`, `resma4.6.py`, `resma4.7.py`
+- `predictions` | files=12 | mentions=12 | `main.py`, `main2.py`, `main5.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`, `resma4.3.py`, `resma4.5.py`, `resma4.6.py`, `resma4.7.py`
+- `betti` | files=11 | mentions=19 | `main5.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`, `resma4.3.py`, `resma4.4.py`, `resma4.5.py`, `resma4.6.py`, `resma4.7.py`, `resma4.8.py`
+- `gibbs` | files=11 | mentions=18 | `main.py`, `main2.py`, `main3.py`, `main4.1.py`, `main4.py.py`, `main5.py`, `resma4.2.py`, `resma4.3.py`, `resma4.4.py`, `resma4.5.py`
+- `gico` | files=11 | mentions=18 | `main.py`, `main2.py`, `main4.1.py`, `main5.py`, `resma4.10.py`, `resma4.13.py`, `resma4.3.py`, `resma4.4.py`, `resma4.5.py`, `resma4.6.py`
+- `operator` | files=11 | mentions=17 | `main.py`, `main2.py`, `main5.py`, `resma4.10.py`, `resma4.13.py`, `resma4.2.py`, `resma4.5.py`, `resma4.6.py`, `resma4.7.py`, `resma4.8.py`
+
+## Verb Edges
+
+- `resma2` --depends_on--> `resma` (strength 1.00)
+- `resma2` --depends_on--> `para` (strength 0.87)
+- `resma` --depends_on--> `resma2` (strength 0.80)
+- `resma` --depends_on--> `para` (strength 0.73)
+- `resma2` --depends_on--> `generate` (strength 0.67)
+- `resma2` --depends_on--> `ramsey` (strength 0.67)
+- `resma` --depends_on--> `generate` (strength 0.60)
+- `resma` --depends_on--> `ramsey` (strength 0.60)
+- `con` --depends_on--> `resma` (strength 0.33)
+- `con` --depends_on--> `resma2` (strength 0.33)
+- `resma2` --depends_on--> `libertad` (strength 0.33)
+- `resma2` --depends_on--> `monitor` (strength 0.33)
+- `con` --depends_on--> `para` (strength 0.27)
+- `con` --depends_on--> `libertad` (strength 0.20)
+- `con` --depends_on--> `monitor` (strength 0.20)
+- `del` --depends_on--> `resma` (strength 0.20)
+- `del` --depends_on--> `resma2` (strength 0.20)
+- `para` --depends_on--> `resma` (strength 0.20)
+- `para` --depends_on--> `resma2` (strength 0.20)
+- `quantum` --depends_on--> `resma` (strength 0.20)
+- `quantum` --depends_on--> `resma2` (strength 0.20)
+- `resma` --depends_on--> `con` (strength 0.20)
+- `resma` --depends_on--> `libertad` (strength 0.20)
+- `resma` --depends_on--> `monitor` (strength 0.20)
+- `resma2` --depends_on--> `con` (strength 0.20)
+- `resma2` --depends_on--> `del` (strength 0.20)
+- `resma2` --depends_on--> `quantum` (strength 0.20)
+- `resma2` --depends_on--> `state` (strength 0.20)
+- `con` --depends_on--> `del` (strength 0.13)
+- `con` --depends_on--> `generate` (strength 0.13)
+- `con` --depends_on--> `quantum` (strength 0.13)
+- `con` --depends_on--> `ramsey` (strength 0.13)
+- `con` --depends_on--> `state` (strength 0.13)
+- `del` --depends_on--> `libertad` (strength 0.13)
+- `del` --depends_on--> `monitor` (strength 0.13)
+- `del` --depends_on--> `para` (strength 0.13)
+- `para` --depends_on--> `libertad` (strength 0.13)
+- `para` --depends_on--> `monitor` (strength 0.13)
+- `quantum` --depends_on--> `libertad` (strength 0.13)
+- `quantum` --depends_on--> `monitor` (strength 0.13)
+- `quantum` --depends_on--> `para` (strength 0.13)
+- `resma` --depends_on--> `del` (strength 0.13)
+- `resma` --depends_on--> `quantum` (strength 0.13)
+- `resma` --depends_on--> `state` (strength 0.13)
+- `resma2` --depends_on--> `calcular` (strength 0.13)
+- `con` --depends_on--> `calcular` (strength 0.07)
+- `del` --depends_on--> `calcular` (strength 0.07)
+- `del` --depends_on--> `con` (strength 0.07)
+- `del` --depends_on--> `generate` (strength 0.07)
+- `del` --depends_on--> `quantum` (strength 0.07)
+
+## Dialectic
+
+- Thesis: `bayes` centralizes 15 files; Antithesis: `betti` pulls 11 files with 10 shared (Jaccard 0.62); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
+- Thesis: `bayes` centralizes 15 files; Antithesis: `bures` pulls 16 files with 15 shared (Jaccard 0.94); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
+- Thesis: `bayes` centralizes 15 files; Antithesis: `calcular` pulls 12 files with 8 shared (Jaccard 0.42); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
+- Thesis: `bayes` centralizes 15 files; Antithesis: `cavity` pulls 15 files with 14 shared (Jaccard 0.88); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
+- Thesis: `bayes` centralizes 15 files; Antithesis: `completo` pulls 14 files with 11 shared (Jaccard 0.61); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
+- Thesis: `bayes` centralizes 15 files; Antithesis: `compute` pulls 13 files with 12 shared (Jaccard 0.75); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
+- Thesis: `bayes` centralizes 15 files; Antithesis: `con` pulls 21 files with 12 shared (Jaccard 0.50); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
+- Thesis: `bayes` centralizes 15 files; Antithesis: `condition` pulls 15 files with 14 shared (Jaccard 0.88); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
+- Thesis: `bayes` centralizes 15 files; Antithesis: `construct` pulls 13 files with 12 shared (Jaccard 0.75); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
+- Thesis: `bayes` centralizes 15 files; Antithesis: `del` pulls 13 files with 8 shared (Jaccard 0.40); Synthesis: should they merge, split by layer, or keep `bridges` explicit?

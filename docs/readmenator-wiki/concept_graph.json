@@ -1,0 +1,2113 @@
+{
+  "concepts": [
+    {
+      "name": "resma",
+      "files": [
+        "app.py",
+        "demo_mini_resma.py",
+        "garnier_nn.py",
+        "main.py",
+        "main2.py",
+        "main3.py",
+        "main4.1.py",
+        "main4.py.py",
+        "main5.py",
+        "monitor_extremo.py",
+        "quick_monitor.py",
+        "resma2/main_experiment.py",
+        "resma2/monitor.py",
+        "resma2/resma_app_mnist.py",
+        "resma2/resma_breakpoint.py",
+        "resma2/resma_combat_test.py",
+        "resma2/resma_core.py",
+        "resma2/resma_noise_phase_test.py",
+        "resma2/resma_observer.py",
+        "resma2/resma_overload.py",
+        "resma2/resma_train.py",
+        "resma2/resma_vision.py",
+        "resma2/resma_vision_trained.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "resma4.9.py",
+        "sovereignty_monitor.py",
+        "test_simple.py",
+        "train_mini_resma.py",
+        "visualize_resma.py"
+      ],
+      "mentions": 118,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "con",
+      "files": [
+        "demo_mini_resma.py",
+        "garnier_nn.py",
+        "main.py",
+        "main2.py",
+        "main4.1.py",
+        "main5.py",
+        "monitor_extremo.py",
+        "quick_monitor.py",
+        "resma2/main_experiment.py",
+        "resma2/resma_app_mnist.py",
+        "resma2/resma_observer.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.9.py",
+        "sovereignty_monitor.py"
+      ],
+      "mentions": 150,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "para",
+      "files": [
+        "demo_mini_resma.py",
+        "main.py",
+        "main2.py",
+        "main4.1.py",
+        "main5.py",
+        "monitor_extremo.py",
+        "quick_monitor.py",
+        "resma2/main_experiment.py",
+        "resma2/resma_core.py",
+        "resma2/resma_observer.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "sovereignty_monitor.py"
+      ],
+      "mentions": 81,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "quantum",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main3.py",
+        "main4.1.py",
+        "main4.py.py",
+        "main5.py",
+        "resma2/resma_app_mnist.py",
+        "resma2/resma_observer.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 29,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "log",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main3.py",
+        "main4.1.py",
+        "main4.py.py",
+        "main5.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "resma4.9.py",
+        "sovereignty_monitor.py"
+      ],
+      "mentions": 60,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "network",
+      "files": [
+        "garnier_nn.py",
+        "main.py",
+        "main2.py",
+        "main3.py",
+        "main4.1.py",
+        "main4.py.py",
+        "main5.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 27,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "ramsey",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main3.py",
+        "main4.1.py",
+        "main4.py.py",
+        "main5.py",
+        "resma2/resma_core.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 23,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "spectral",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main3.py",
+        "main4.1.py",
+        "main4.py.py",
+        "main5.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 39,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "post",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main3.py",
+        "main4.1.py",
+        "main4.py.py",
+        "main5.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 31,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "global",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main3.py",
+        "main4.1.py",
+        "main4.py.py",
+        "main5.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 24,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "distance",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main3.py",
+        "main4.1.py",
+        "main4.py.py",
+        "main5.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 22,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "bures",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main3.py",
+        "main4.1.py",
+        "main4.py.py",
+        "main5.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 20,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "density",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main3.py",
+        "main4.1.py",
+        "main4.py.py",
+        "main5.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 17,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "simulate",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main3.py",
+        "main4.1.py",
+        "main4.py.py",
+        "main5.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 17,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "leaf",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main3.py",
+        "main4.1.py",
+        "main4.py.py",
+        "main5.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 16,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "bayes",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main3.py",
+        "main4.1.py",
+        "main4.py.py",
+        "main5.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 26,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "loss",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main3.py",
+        "main4.1.py",
+        "main4.py.py",
+        "main5.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 24,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "condition",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main3.py",
+        "main4.1.py",
+        "main4.py.py",
+        "main5.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 21,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "free",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main3.py",
+        "main4.1.py",
+        "main4.py.py",
+        "main5.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 18,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "hamiltonian",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main3.py",
+        "main4.1.py",
+        "main4.py.py",
+        "main5.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 18,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "cavity",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main3.py",
+        "main4.1.py",
+        "main4.py.py",
+        "main5.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 16,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "myelin",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main3.py",
+        "main4.1.py",
+        "main4.py.py",
+        "main5.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 16,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "potential",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main3.py",
+        "main4.1.py",
+        "main4.py.py",
+        "main5.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 16,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "monitor",
+      "files": [
+        "monitor_extremo.py",
+        "quick_monitor.py",
+        "resma2/monitor.py",
+        "resma2/resma_observer.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "resma4.9.py",
+        "sovereignty_monitor.py"
+      ],
+      "mentions": 41,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "generate",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main5.py",
+        "resma2/resma_core.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 29,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "matriz",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main5.py",
+        "monitor_extremo.py",
+        "quick_monitor.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "sovereignty_monitor.py"
+      ],
+      "mentions": 28,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "completo",
+      "files": [
+        "garnier_nn.py",
+        "main.py",
+        "main2.py",
+        "main3.py",
+        "main4.py.py",
+        "main5.py",
+        "resma4.10.py",
+        "resma4.2.py",
+        "resma4.4.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "resma4.9.py",
+        "sovereignty_monitor.py"
+      ],
+      "mentions": 20,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "state",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main5.py",
+        "resma2/resma_observer.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 20,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "measure",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main5.py",
+        "resma2/resma_noise_phase_test.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 14,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "compute",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main5.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 51,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "factor",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main4.1.py",
+        "main5.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 36,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "del",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main5.py",
+        "monitor_extremo.py",
+        "quick_monitor.py",
+        "resma2/main_experiment.py",
+        "resma2/resma_observer.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "sovereignty_monitor.py"
+      ],
+      "mentions": 33,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "libertad",
+      "files": [
+        "main5.py",
+        "monitor_extremo.py",
+        "quick_monitor.py",
+        "resma2/monitor.py",
+        "resma2/resma_observer.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "resma4.9.py",
+        "sovereignty_monitor.py"
+      ],
+      "mentions": 25,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "dimension",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main5.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 23,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "leaves",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main5.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 22,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "construct",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main5.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 20,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "modular",
+      "files": [
+        "garnier_nn.py",
+        "main.py",
+        "main2.py",
+        "main3.py",
+        "main4.1.py",
+        "main4.py.py",
+        "main5.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.5.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 20,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "initialize",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main5.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 13,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "neural",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main5.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 13,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "resma2",
+      "files": [
+        "resma2/main_experiment.py",
+        "resma2/main_experiments.py",
+        "resma2/monitor.py",
+        "resma2/resma_app_mnist.py",
+        "resma2/resma_breakpoint.py",
+        "resma2/resma_combat_test.py",
+        "resma2/resma_core.py",
+        "resma2/resma_noise_phase_test.py",
+        "resma2/resma_observer.py",
+        "resma2/resma_overload.py",
+        "resma2/resma_train.py",
+        "resma2/resma_vision.py",
+        "resma2/resma_vision_trained.py"
+      ],
+      "mentions": 13,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "resmaconstants",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main5.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 13,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "resmauniverse",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main5.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 13,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "topological",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main5.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 13,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "calcular",
+      "files": [
+        "main5.py",
+        "monitor_extremo.py",
+        "quick_monitor.py",
+        "resma2/monitor.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "resma4.9.py",
+        "sovereignty_monitor.py"
+      ],
+      "mentions": 43,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "experimental",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main5.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 16,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "predictions",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main5.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 12,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "betti",
+      "files": [
+        "main5.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 19,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "gibbs",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main3.py",
+        "main4.1.py",
+        "main4.py.py",
+        "main5.py",
+        "resma4.2.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py"
+      ],
+      "mentions": 18,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "gico",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main4.1.py",
+        "main5.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.3.py",
+        "resma4.4.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py"
+      ],
+      "mentions": 18,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "operator",
+      "files": [
+        "main.py",
+        "main2.py",
+        "main5.py",
+        "resma4.10.py",
+        "resma4.13.py",
+        "resma4.2.py",
+        "resma4.5.py",
+        "resma4.6.py",
+        "resma4.7.py",
+        "resma4.8.py",
+        "resma4.9.py"
+      ],
+      "mentions": 17,
+      "confidence": "EXTRACTED"
+    }
+  ],
+  "relations": [
+    {
+      "source": "resma2",
+      "target": "resma",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_core.py",
+        "resma2/main_experiment.py->resma2/resma_observer.py",
+        "resma2/main_experiments.py->resma2/monitor.py",
+        "resma2/main_experiments.py->resma2/resma_core.py",
+        "resma2/main_experiments.py->resma2/resma_observer.py",
+        "resma2/resma_app_mnist.py->resma2/resma_core.py",
+        "resma2/resma_app_mnist.py->resma2/resma_observer.py",
+        "resma2/resma_breakpoint.py->resma2/resma_core.py",
+        "resma2/resma_combat_test.py->resma2/resma_core.py",
+        "resma2/resma_noise_phase_test.py->resma2/resma_core.py"
+      ]
+    },
+    {
+      "source": "resma2",
+      "target": "para",
+      "verb": "depends_on",
+      "strength": 0.87,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_core.py",
+        "resma2/main_experiment.py->resma2/resma_observer.py",
+        "resma2/main_experiments.py->resma2/resma_core.py",
+        "resma2/main_experiments.py->resma2/resma_observer.py",
+        "resma2/resma_app_mnist.py->resma2/resma_core.py",
+        "resma2/resma_app_mnist.py->resma2/resma_observer.py",
+        "resma2/resma_breakpoint.py->resma2/resma_core.py",
+        "resma2/resma_combat_test.py->resma2/resma_core.py",
+        "resma2/resma_noise_phase_test.py->resma2/resma_core.py",
+        "resma2/resma_overload.py->resma2/resma_core.py"
+      ]
+    },
+    {
+      "source": "resma",
+      "target": "resma2",
+      "verb": "depends_on",
+      "strength": 0.8,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_core.py",
+        "resma2/main_experiment.py->resma2/resma_observer.py",
+        "resma2/resma_app_mnist.py->resma2/resma_core.py",
+        "resma2/resma_app_mnist.py->resma2/resma_observer.py",
+        "resma2/resma_breakpoint.py->resma2/resma_core.py",
+        "resma2/resma_combat_test.py->resma2/resma_core.py",
+        "resma2/resma_noise_phase_test.py->resma2/resma_core.py",
+        "resma2/resma_observer.py->resma2/monitor.py",
+        "resma2/resma_overload.py->resma2/resma_core.py",
+        "resma2/resma_train.py->resma2/resma_core.py"
+      ]
+    },
+    {
+      "source": "resma",
+      "target": "para",
+      "verb": "depends_on",
+      "strength": 0.73,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_core.py",
+        "resma2/main_experiment.py->resma2/resma_observer.py",
+        "resma2/resma_app_mnist.py->resma2/resma_core.py",
+        "resma2/resma_app_mnist.py->resma2/resma_observer.py",
+        "resma2/resma_breakpoint.py->resma2/resma_core.py",
+        "resma2/resma_combat_test.py->resma2/resma_core.py",
+        "resma2/resma_noise_phase_test.py->resma2/resma_core.py",
+        "resma2/resma_overload.py->resma2/resma_core.py",
+        "resma2/resma_train.py->resma2/resma_core.py",
+        "resma2/resma_vision.py->resma2/resma_core.py"
+      ]
+    },
+    {
+      "source": "resma2",
+      "target": "generate",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_core.py",
+        "resma2/main_experiments.py->resma2/resma_core.py",
+        "resma2/resma_app_mnist.py->resma2/resma_core.py",
+        "resma2/resma_breakpoint.py->resma2/resma_core.py",
+        "resma2/resma_combat_test.py->resma2/resma_core.py",
+        "resma2/resma_noise_phase_test.py->resma2/resma_core.py",
+        "resma2/resma_overload.py->resma2/resma_core.py",
+        "resma2/resma_train.py->resma2/resma_core.py",
+        "resma2/resma_vision.py->resma2/resma_core.py",
+        "resma2/resma_vision_trained.py->resma2/resma_core.py"
+      ]
+    },
+    {
+      "source": "resma2",
+      "target": "ramsey",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_core.py",
+        "resma2/main_experiments.py->resma2/resma_core.py",
+        "resma2/resma_app_mnist.py->resma2/resma_core.py",
+        "resma2/resma_breakpoint.py->resma2/resma_core.py",
+        "resma2/resma_combat_test.py->resma2/resma_core.py",
+        "resma2/resma_noise_phase_test.py->resma2/resma_core.py",
+        "resma2/resma_overload.py->resma2/resma_core.py",
+        "resma2/resma_train.py->resma2/resma_core.py",
+        "resma2/resma_vision.py->resma2/resma_core.py",
+        "resma2/resma_vision_trained.py->resma2/resma_core.py"
+      ]
+    },
+    {
+      "source": "resma",
+      "target": "generate",
+      "verb": "depends_on",
+      "strength": 0.6,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_core.py",
+        "resma2/resma_app_mnist.py->resma2/resma_core.py",
+        "resma2/resma_breakpoint.py->resma2/resma_core.py",
+        "resma2/resma_combat_test.py->resma2/resma_core.py",
+        "resma2/resma_noise_phase_test.py->resma2/resma_core.py",
+        "resma2/resma_overload.py->resma2/resma_core.py",
+        "resma2/resma_train.py->resma2/resma_core.py",
+        "resma2/resma_vision.py->resma2/resma_core.py",
+        "resma2/resma_vision_trained.py->resma2/resma_core.py"
+      ]
+    },
+    {
+      "source": "resma",
+      "target": "ramsey",
+      "verb": "depends_on",
+      "strength": 0.6,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_core.py",
+        "resma2/resma_app_mnist.py->resma2/resma_core.py",
+        "resma2/resma_breakpoint.py->resma2/resma_core.py",
+        "resma2/resma_combat_test.py->resma2/resma_core.py",
+        "resma2/resma_noise_phase_test.py->resma2/resma_core.py",
+        "resma2/resma_overload.py->resma2/resma_core.py",
+        "resma2/resma_train.py->resma2/resma_core.py",
+        "resma2/resma_vision.py->resma2/resma_core.py",
+        "resma2/resma_vision_trained.py->resma2/resma_core.py"
+      ]
+    },
+    {
+      "source": "con",
+      "target": "resma",
+      "verb": "depends_on",
+      "strength": 0.33,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_core.py",
+        "resma2/main_experiment.py->resma2/resma_observer.py",
+        "resma2/resma_app_mnist.py->resma2/resma_core.py",
+        "resma2/resma_app_mnist.py->resma2/resma_observer.py",
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "con",
+      "target": "resma2",
+      "verb": "depends_on",
+      "strength": 0.33,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_core.py",
+        "resma2/main_experiment.py->resma2/resma_observer.py",
+        "resma2/resma_app_mnist.py->resma2/resma_core.py",
+        "resma2/resma_app_mnist.py->resma2/resma_observer.py",
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "resma2",
+      "target": "libertad",
+      "verb": "depends_on",
+      "strength": 0.33,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_observer.py",
+        "resma2/main_experiments.py->resma2/monitor.py",
+        "resma2/main_experiments.py->resma2/resma_observer.py",
+        "resma2/resma_app_mnist.py->resma2/resma_observer.py",
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "resma2",
+      "target": "monitor",
+      "verb": "depends_on",
+      "strength": 0.33,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_observer.py",
+        "resma2/main_experiments.py->resma2/monitor.py",
+        "resma2/main_experiments.py->resma2/resma_observer.py",
+        "resma2/resma_app_mnist.py->resma2/resma_observer.py",
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "con",
+      "target": "para",
+      "verb": "depends_on",
+      "strength": 0.27,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_core.py",
+        "resma2/main_experiment.py->resma2/resma_observer.py",
+        "resma2/resma_app_mnist.py->resma2/resma_core.py",
+        "resma2/resma_app_mnist.py->resma2/resma_observer.py"
+      ]
+    },
+    {
+      "source": "con",
+      "target": "libertad",
+      "verb": "depends_on",
+      "strength": 0.2,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_observer.py",
+        "resma2/resma_app_mnist.py->resma2/resma_observer.py",
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "con",
+      "target": "monitor",
+      "verb": "depends_on",
+      "strength": 0.2,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_observer.py",
+        "resma2/resma_app_mnist.py->resma2/resma_observer.py",
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "del",
+      "target": "resma",
+      "verb": "depends_on",
+      "strength": 0.2,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_core.py",
+        "resma2/main_experiment.py->resma2/resma_observer.py",
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "del",
+      "target": "resma2",
+      "verb": "depends_on",
+      "strength": 0.2,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_core.py",
+        "resma2/main_experiment.py->resma2/resma_observer.py",
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "para",
+      "target": "resma",
+      "verb": "depends_on",
+      "strength": 0.2,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_core.py",
+        "resma2/main_experiment.py->resma2/resma_observer.py",
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "para",
+      "target": "resma2",
+      "verb": "depends_on",
+      "strength": 0.2,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_core.py",
+        "resma2/main_experiment.py->resma2/resma_observer.py",
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "quantum",
+      "target": "resma",
+      "verb": "depends_on",
+      "strength": 0.2,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/resma_app_mnist.py->resma2/resma_core.py",
+        "resma2/resma_app_mnist.py->resma2/resma_observer.py",
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "quantum",
+      "target": "resma2",
+      "verb": "depends_on",
+      "strength": 0.2,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/resma_app_mnist.py->resma2/resma_core.py",
+        "resma2/resma_app_mnist.py->resma2/resma_observer.py",
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "resma",
+      "target": "con",
+      "verb": "depends_on",
+      "strength": 0.2,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_observer.py",
+        "resma2/resma_app_mnist.py->resma2/resma_observer.py",
+        "train_mini_resma.py->garnier_nn.py"
+      ]
+    },
+    {
+      "source": "resma",
+      "target": "libertad",
+      "verb": "depends_on",
+      "strength": 0.2,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_observer.py",
+        "resma2/resma_app_mnist.py->resma2/resma_observer.py",
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "resma",
+      "target": "monitor",
+      "verb": "depends_on",
+      "strength": 0.2,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_observer.py",
+        "resma2/resma_app_mnist.py->resma2/resma_observer.py",
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "resma2",
+      "target": "con",
+      "verb": "depends_on",
+      "strength": 0.2,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_observer.py",
+        "resma2/main_experiments.py->resma2/resma_observer.py",
+        "resma2/resma_app_mnist.py->resma2/resma_observer.py"
+      ]
+    },
+    {
+      "source": "resma2",
+      "target": "del",
+      "verb": "depends_on",
+      "strength": 0.2,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_observer.py",
+        "resma2/main_experiments.py->resma2/resma_observer.py",
+        "resma2/resma_app_mnist.py->resma2/resma_observer.py"
+      ]
+    },
+    {
+      "source": "resma2",
+      "target": "quantum",
+      "verb": "depends_on",
+      "strength": 0.2,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_observer.py",
+        "resma2/main_experiments.py->resma2/resma_observer.py",
+        "resma2/resma_app_mnist.py->resma2/resma_observer.py"
+      ]
+    },
+    {
+      "source": "resma2",
+      "target": "state",
+      "verb": "depends_on",
+      "strength": 0.2,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_observer.py",
+        "resma2/main_experiments.py->resma2/resma_observer.py",
+        "resma2/resma_app_mnist.py->resma2/resma_observer.py"
+      ]
+    },
+    {
+      "source": "con",
+      "target": "del",
+      "verb": "depends_on",
+      "strength": 0.13,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_observer.py",
+        "resma2/resma_app_mnist.py->resma2/resma_observer.py"
+      ]
+    },
+    {
+      "source": "con",
+      "target": "generate",
+      "verb": "depends_on",
+      "strength": 0.13,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_core.py",
+        "resma2/resma_app_mnist.py->resma2/resma_core.py"
+      ]
+    },
+    {
+      "source": "con",
+      "target": "quantum",
+      "verb": "depends_on",
+      "strength": 0.13,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_observer.py",
+        "resma2/resma_app_mnist.py->resma2/resma_observer.py"
+      ]
+    },
+    {
+      "source": "con",
+      "target": "ramsey",
+      "verb": "depends_on",
+      "strength": 0.13,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_core.py",
+        "resma2/resma_app_mnist.py->resma2/resma_core.py"
+      ]
+    },
+    {
+      "source": "con",
+      "target": "state",
+      "verb": "depends_on",
+      "strength": 0.13,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_observer.py",
+        "resma2/resma_app_mnist.py->resma2/resma_observer.py"
+      ]
+    },
+    {
+      "source": "del",
+      "target": "libertad",
+      "verb": "depends_on",
+      "strength": 0.13,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_observer.py",
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "del",
+      "target": "monitor",
+      "verb": "depends_on",
+      "strength": 0.13,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_observer.py",
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "del",
+      "target": "para",
+      "verb": "depends_on",
+      "strength": 0.13,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_core.py",
+        "resma2/main_experiment.py->resma2/resma_observer.py"
+      ]
+    },
+    {
+      "source": "para",
+      "target": "libertad",
+      "verb": "depends_on",
+      "strength": 0.13,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_observer.py",
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "para",
+      "target": "monitor",
+      "verb": "depends_on",
+      "strength": 0.13,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_observer.py",
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "quantum",
+      "target": "libertad",
+      "verb": "depends_on",
+      "strength": 0.13,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/resma_app_mnist.py->resma2/resma_observer.py",
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "quantum",
+      "target": "monitor",
+      "verb": "depends_on",
+      "strength": 0.13,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/resma_app_mnist.py->resma2/resma_observer.py",
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "quantum",
+      "target": "para",
+      "verb": "depends_on",
+      "strength": 0.13,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/resma_app_mnist.py->resma2/resma_core.py",
+        "resma2/resma_app_mnist.py->resma2/resma_observer.py"
+      ]
+    },
+    {
+      "source": "resma",
+      "target": "del",
+      "verb": "depends_on",
+      "strength": 0.13,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_observer.py",
+        "resma2/resma_app_mnist.py->resma2/resma_observer.py"
+      ]
+    },
+    {
+      "source": "resma",
+      "target": "quantum",
+      "verb": "depends_on",
+      "strength": 0.13,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_observer.py",
+        "resma2/resma_app_mnist.py->resma2/resma_observer.py"
+      ]
+    },
+    {
+      "source": "resma",
+      "target": "state",
+      "verb": "depends_on",
+      "strength": 0.13,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_observer.py",
+        "resma2/resma_app_mnist.py->resma2/resma_observer.py"
+      ]
+    },
+    {
+      "source": "resma2",
+      "target": "calcular",
+      "verb": "depends_on",
+      "strength": 0.13,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiments.py->resma2/monitor.py",
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "con",
+      "target": "calcular",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "del",
+      "target": "calcular",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "del",
+      "target": "con",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_observer.py"
+      ]
+    },
+    {
+      "source": "del",
+      "target": "generate",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_core.py"
+      ]
+    },
+    {
+      "source": "del",
+      "target": "quantum",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_observer.py"
+      ]
+    },
+    {
+      "source": "del",
+      "target": "ramsey",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_core.py"
+      ]
+    },
+    {
+      "source": "del",
+      "target": "state",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_observer.py"
+      ]
+    },
+    {
+      "source": "libertad",
+      "target": "calcular",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "libertad",
+      "target": "monitor",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "libertad",
+      "target": "resma",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "libertad",
+      "target": "resma2",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "measure",
+      "target": "generate",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/resma_noise_phase_test.py->resma2/resma_core.py"
+      ]
+    },
+    {
+      "source": "measure",
+      "target": "para",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/resma_noise_phase_test.py->resma2/resma_core.py"
+      ]
+    },
+    {
+      "source": "measure",
+      "target": "ramsey",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/resma_noise_phase_test.py->resma2/resma_core.py"
+      ]
+    },
+    {
+      "source": "measure",
+      "target": "resma",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/resma_noise_phase_test.py->resma2/resma_core.py"
+      ]
+    },
+    {
+      "source": "measure",
+      "target": "resma2",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/resma_noise_phase_test.py->resma2/resma_core.py"
+      ]
+    },
+    {
+      "source": "monitor",
+      "target": "calcular",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "monitor",
+      "target": "libertad",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "monitor",
+      "target": "resma",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "monitor",
+      "target": "resma2",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "para",
+      "target": "calcular",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "para",
+      "target": "con",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_observer.py"
+      ]
+    },
+    {
+      "source": "para",
+      "target": "del",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_observer.py"
+      ]
+    },
+    {
+      "source": "para",
+      "target": "generate",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_core.py"
+      ]
+    },
+    {
+      "source": "para",
+      "target": "quantum",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_observer.py"
+      ]
+    },
+    {
+      "source": "para",
+      "target": "ramsey",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_core.py"
+      ]
+    },
+    {
+      "source": "para",
+      "target": "state",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/main_experiment.py->resma2/resma_observer.py"
+      ]
+    },
+    {
+      "source": "quantum",
+      "target": "calcular",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "quantum",
+      "target": "con",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/resma_app_mnist.py->resma2/resma_observer.py"
+      ]
+    },
+    {
+      "source": "quantum",
+      "target": "del",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/resma_app_mnist.py->resma2/resma_observer.py"
+      ]
+    },
+    {
+      "source": "quantum",
+      "target": "generate",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/resma_app_mnist.py->resma2/resma_core.py"
+      ]
+    },
+    {
+      "source": "quantum",
+      "target": "ramsey",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/resma_app_mnist.py->resma2/resma_core.py"
+      ]
+    },
+    {
+      "source": "quantum",
+      "target": "state",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/resma_app_mnist.py->resma2/resma_observer.py"
+      ]
+    },
+    {
+      "source": "resma",
+      "target": "calcular",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "resma",
+      "target": "completo",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "train_mini_resma.py->garnier_nn.py"
+      ]
+    },
+    {
+      "source": "resma",
+      "target": "modular",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "train_mini_resma.py->garnier_nn.py"
+      ]
+    },
+    {
+      "source": "resma",
+      "target": "network",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "train_mini_resma.py->garnier_nn.py"
+      ]
+    },
+    {
+      "source": "state",
+      "target": "calcular",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "state",
+      "target": "libertad",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "state",
+      "target": "monitor",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "state",
+      "target": "resma",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    },
+    {
+      "source": "state",
+      "target": "resma2",
+      "verb": "depends_on",
+      "strength": 0.07,
+      "confidence": "INFERRED",
+      "evidence": [
+        "resma2/resma_observer.py->resma2/monitor.py"
+      ]
+    }
+  ],
+  "dialectic": [
+    "Thesis: `bayes` centralizes 15 files; Antithesis: `betti` pulls 11 files with 10 shared (Jaccard 0.62); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `bayes` centralizes 15 files; Antithesis: `bures` pulls 16 files with 15 shared (Jaccard 0.94); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `bayes` centralizes 15 files; Antithesis: `calcular` pulls 12 files with 8 shared (Jaccard 0.42); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `bayes` centralizes 15 files; Antithesis: `cavity` pulls 15 files with 14 shared (Jaccard 0.88); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `bayes` centralizes 15 files; Antithesis: `completo` pulls 14 files with 11 shared (Jaccard 0.61); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `bayes` centralizes 15 files; Antithesis: `compute` pulls 13 files with 12 shared (Jaccard 0.75); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `bayes` centralizes 15 files; Antithesis: `con` pulls 21 files with 12 shared (Jaccard 0.50); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `bayes` centralizes 15 files; Antithesis: `condition` pulls 15 files with 14 shared (Jaccard 0.88); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `bayes` centralizes 15 files; Antithesis: `construct` pulls 13 files with 12 shared (Jaccard 0.75); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `bayes` centralizes 15 files; Antithesis: `del` pulls 13 files with 8 shared (Jaccard 0.40); Synthesis: should they merge, split by layer, or keep `bridges` explicit?"
+  ]
+}

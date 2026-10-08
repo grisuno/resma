@@ -1,0 +1,90 @@
+[
+  {
+    "community_a": 1,
+    "community_b": 0,
+    "connection_type": "depends_on",
+    "explanation": "Extracted import edge crosses communities: resma2/main_experiment.py imports resma2/resma_core.py.",
+    "strength": 0.9,
+    "confidence": "EXTRACTED"
+  },
+  {
+    "community_a": 1,
+    "community_b": 0,
+    "connection_type": "bridges",
+    "explanation": "Inferred cross-community bridge: resma2/monitor.py reaches resma2/resma_breakpoint.py in 3 hops.",
+    "strength": 0.7,
+    "confidence": "INFERRED"
+  },
+  {
+    "community_a": 1,
+    "community_b": 0,
+    "connection_type": "bridges",
+    "explanation": "Inferred cross-community bridge: resma2/monitor.py reaches resma2/resma_combat_test.py in 3 hops.",
+    "strength": 0.7,
+    "confidence": "INFERRED"
+  },
+  {
+    "community_a": 1,
+    "community_b": 0,
+    "connection_type": "bridges",
+    "explanation": "Inferred cross-community bridge: resma2/monitor.py reaches resma2/resma_noise_phase_test.py in 3 hops.",
+    "strength": 0.7,
+    "confidence": "INFERRED"
+  },
+  {
+    "community_a": 1,
+    "community_b": 0,
+    "connection_type": "bridges",
+    "explanation": "Inferred cross-community bridge: resma2/monitor.py reaches resma2/resma_overload.py in 3 hops.",
+    "strength": 0.7,
+    "confidence": "INFERRED"
+  },
+  {
+    "community_a": 1,
+    "community_b": 0,
+    "connection_type": "bridges",
+    "explanation": "Inferred cross-community bridge: resma2/monitor.py reaches resma2/resma_train.py in 3 hops.",
+    "strength": 0.7,
+    "confidence": "INFERRED"
+  },
+  {
+    "community_a": 0,
+    "community_b": 2,
+    "connection_type": "shares_context",
+    "explanation": "Inferred shared context (language py and layer utility) with no import path between community 0 (resma2: resma_core) and community 2 (root).",
+    "strength": 0.5,
+    "confidence": "INFERRED"
+  },
+  {
+    "community_a": 0,
+    "community_b": 3,
+    "connection_type": "shares_context",
+    "explanation": "Inferred shared context (language py and layer utility) with no import path between community 0 (resma2: resma_core) and community 3 (orphans).",
+    "strength": 0.5,
+    "confidence": "INFERRED"
+  },
+  {
+    "community_a": 1,
+    "community_b": 2,
+    "connection_type": "shares_context",
+    "explanation": "Inferred shared context (language py and layer utility) with no import path between community 1 (resma2: monitor) and community 2 (root).",
+    "strength": 0.5,
+    "confidence": "INFERRED"
+  },
+  {
+    "community_a": 1,
+    "community_b": 3,
+    "connection_type": "shares_context",
+    "explanation": "Inferred shared context (language py and layer utility) with no import path between community 1 (resma2: monitor) and community 3 (orphans).",
+    "strength": 0.5,
+    "confidence": "INFERRED"
+  },
+  {
+    "community_a": 2,
+    "community_b": 3,
+    "connection_type": "shares_context",
+    "explanation": "Inferred shared context (language py and layer utility) with no import path between community 2 (root) and community 3 (orphans).",
+    "strength": 0.5,
+    "confidence": "INFERRED"
+  }
+]
