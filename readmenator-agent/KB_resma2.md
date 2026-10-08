@@ -1,8 +1,8 @@
 # Subsystem: resma2
 
 ## resma2/main_experiment.py
-- Doc: resma-exp/main.py
 - Layer: utility
+- Doc: resma-exp/main.py ================= Script de ejecución para validación de RESMA 5.1 Simula un entorno de entrenamiento 
 - Language: py
 - Symbols:
   - `set_seed` (function, line 26) `def set_seed(seed)`
@@ -19,8 +19,8 @@
 - Depends on: `resma2/monitor.py`, `resma2/resma_core.py`, `resma2/resma_observer.py`
 
 ## resma2/monitor.py
-- Doc: (Local Version for RESMA) Basado en liber-monitor v2.0.0
 - Layer: utility
+- Doc: monitor.py (Local Version for RESMA) Basado en liber-monitor v2.0.0
 - Language: py
 - Symbols:
   - `Regime` (class, line 12) `class Regime(Enum)`
@@ -35,8 +35,8 @@
 - Imported by: `resma2/main_experiments.py`, `resma2/resma_observer.py`
 
 ## resma2/resma_app_mnist.py
-- Doc: resma-app/mnist.py
 - Layer: utility
+- Doc: resma-app/mnist.py ================== Prueba de Concepto Aplicada: Clasificación Robusta con RESMA 5.2 Demostración de f
 - Language: py
 - Symbols:
   - `add_quantum_noise` (function, line 25) `def add_quantum_noise(tensor, noise_factor)`
@@ -59,8 +59,8 @@
 - Depends on: `resma2/resma_core.py`
 
 ## resma2/resma_core.py
-- Doc: resma-core/physics.py v5.2.0 (High Flow)
 - Layer: utility
+- Doc: resma-core/physics.py v5.2.0 (High Flow) ======================================== Ajuste: Aumento de kappa_init para per
 - Language: py
 - Symbols:
   - `PTSymmetricActivation` (class, line 14) `class PTSymmetricActivation(Module)`
@@ -84,8 +84,8 @@
 - Depends on: `resma2/resma_core.py`
 
 ## resma2/resma_observer.py
-- Doc: resma-observer/observer.py v1.0.0
 - Layer: utility
+- Doc: resma-observer/observer.py v1.0.0 ================================= Sistema de Telemetría Unificado (Estructura + Dinámi
 - Language: py
 - Symbols:
   - `QuantumState` (class, line 27) `class QuantumState`
